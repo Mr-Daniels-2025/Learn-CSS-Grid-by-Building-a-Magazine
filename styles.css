@@ -1,19 +1,25 @@
-*, ::before, ::after {
-  box-sizing: border-box;
-  margin: 0;
+*,
+::before,
+::after {
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
-    font-family: 'Baskervville', serif;
-    color: linen;
-    background-color: rgb(20, 30, 40);
+  font-family: 'Baskervville', serif;
+  color: linen;
+  background-color: rgb(20, 30, 40);
 }
+
 h1 {
   font-family: 'Anton', sans-serif;
 }
+
 h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
 }
@@ -29,6 +35,12 @@ main {
   row-gap: 3rem;
 }
 
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
 .heading {
   grid-column: 2 / 3;
   display: grid;
@@ -36,13 +48,11 @@ main {
   row-gap: 1.5rem;
 }
 
-.hero {
-  grid-column: 1 / -1;
-  position: relative;
-}
-
 .text {
   grid-column: 2 / 3;
 }
 
-
+.hero {
+  grid-column: 1 / -1;
+  position: relative;
+}
