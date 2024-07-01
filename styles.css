@@ -109,3 +109,8 @@ img {
   float: left;
   margin-right: 1rem;
 }
+
+hr {
+    margin: 1.5rem 0; /* 1.5rem top and bottom, 0 left and right */
+}
+
