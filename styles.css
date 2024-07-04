@@ -130,3 +130,7 @@ hr {
   content: ' "';
 }
 
+.text-with-images {
+  display: grid;
+}
+
