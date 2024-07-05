@@ -146,7 +146,9 @@ hr {
   color: #00beef;
 }
 
-.image-wrapper {
+..image-wrapper {
   display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3, min-content);
 }
 
